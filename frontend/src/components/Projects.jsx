@@ -120,7 +120,7 @@ export default function Projects() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-12 auto-rows-[170px] gap-6">
+         <div className="grid grid-cols-1 md:grid-cols-12 md:auto-rows-[170px] gap-6">
           {PROJECTS.map((p) => (
             <ProjectCard key={p.id} p={p} sizeClass={sizeMap[p.size] || sizeMap.square} />
           ))}
